@@ -19,21 +19,14 @@ define([
 ], function ($) {
     'use strict';
 
-    console.log('here');
-
     return function(config, element) {
-        console.log('in function');
         var ua = window.navigator.userAgent;
         var msie = ua.indexOf("MSIE ");
         var msie_v = parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)));
-        console.log(msie_v);
 
         if ((msie_v > 0) && (msie_v < 11)) {
-            console.log('OLD BROWSER');
             element.css({"display": "block"});
             return true;
-        } else {
-            console.log('COOL BROWSER!');
         }
 
         return false;
