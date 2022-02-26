@@ -20,7 +20,7 @@ if ($block->displayBrowserNotSupportedNotice()) :
     ?>
 <div style="display: none;" class="message global browserwarning" id="browser-warning" data-mage-init='{"sozoOutdatedBrowserWarning":{}}'>
     <p>
-        <?= $block->escapeHtml(__('You are using an <strong>outdated</strong> browser. Please <a href="%1" target="_blank" rel="external">upgrade your browser</a> to improve your experience', 'https://browsehappy.com/'), ['a']) ?>
+        <?= $block->escapeHtml(__('You are using an <strong>outdated</strong> browser. Please <a href="%1" target="_blank" rel="external">upgrade your browser</a> to improve your experience', 'https://browsehappy.com/'), ['a','strong']) ?>
     </p>
 </div>
     <?php
