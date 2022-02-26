@@ -31,4 +31,17 @@ class Frontend extends Template
     {
         parent::__construct($context, $data);
     }
+
+    /**
+     * Check if browser not supported notice should be displayed
+     *
+     * @return boolean
+     */
+    public function displayBrowserNotSupportedNotice()
+    {
+        return $this->_scopeConfig->getValue(
+            'web/browser_capabilities/supported',
+            \Magento\Store\Model\ScopeInterface::SCOPE_STORE
+        );
+    }
 }
