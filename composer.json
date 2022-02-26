@@ -1,0 +1,32 @@
+{
+    "name": "sozodesign/magento2-module-sozo-outdatedbrowserwarning",
+    "version": "1.0.0",
+    "description": "Display a message if the browser isn't supported.",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Clive Walkden",
+            "email": "clive@sozodesign.co.uk",
+            "homepage": "https://sozodesign.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sozo\\OutdatedBrowserWarning\\": ""
+        }
+    },
+    "support": {
+        "email": "magento@sozodesign.co.uk",
+        "source": "https://bitbucket.org/sozodesign/magento2-module-sozo-outdatedbrowserwarning"
+    }
+}

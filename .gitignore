@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/log/
+/logs/
+.DS_Store
+.htaccess
+/environments/local/
+!/environments/local/app/etc/mark-env.php
+Gemfile.lock
+*.phar
+
+/tmp/
+
+/.env*
+!/.env.sample
+
+/*.log
+!/magento/composer.lock
