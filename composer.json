@@ -1,6 +1,6 @@
 {
     "name": "sozodesign/magento2-module-sozo-outdatedbrowserwarning",
-    "version": "1.0.0",
+    "version": "400.0.0",
     "description": "Display a message if the browser isn't supported.",
     "type": "magento2-module",
     "authors": [
@@ -27,6 +27,6 @@
     },
     "support": {
         "email": "magento@sozodesign.co.uk",
-        "source": "https://bitbucket.org/sozodesign/magento2-module-sozo-outdatedbrowserwarning"
+        "source": "https://github.com/sozo-design/magento2-module-sozo-outdatedbrowserwarning/issues"
     }
 }
