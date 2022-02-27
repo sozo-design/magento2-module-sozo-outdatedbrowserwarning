@@ -25,7 +25,7 @@ define([
         var msie_v = parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)));
 
         if ((msie_v > 0) && (msie_v < 11)) {
-            element.css({"display": "block"});
+            $('#browser-warning').css({"display": "block"});
             return true;
         }
 

@@ -21,4 +21,5 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 ### [Unreleased]
 
+## [v400.0.0] - 2022-02-27
 - Initial Release
