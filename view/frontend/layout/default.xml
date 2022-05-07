@@ -19,9 +19,14 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="after.body.start">
-            <block class="Sozo\OutdatedBrowserWarning\Block\Frontend"
+            <block class="Magento\Framework\View\Element\Template"
                    name="sozo_outdatedbrowserwarning_js"
                    as="sozo_outdatedbrowserwarning_js"
+                   template="Sozo_OutdatedBrowserWarning::check.phtml"
+                   before="-"/>
+            <block class="Sozo\OutdatedBrowserWarning\Block\Frontend"
+                   name="sozo_outdatedbrowserwarning_message"
+                   as="sozo_outdatedbrowserwarning_message"
                    template="Sozo_OutdatedBrowserWarning::warningblock.phtml"/>
         </referenceContainer>
     </body>
